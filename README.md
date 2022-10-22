@@ -15,3 +15,5 @@
 >> * export JAVA_HOME=$(readlink -f /usr/bin/java | sed "s:bin/java::")
 >> * mvn clean package -DskipTests
 >> * java -jar UsaReto3-0.0.1-SNAPSHOT.jar
+>> * sudo firewall-cmd --permanent --zone=public --add-service=http
+>> * sudo firewall-cmd --reload
